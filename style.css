@@ -1,0 +1,26 @@
+.outer{
+    text-align: center;
+}
+.inner{
+    display: inline-block;
+    text-align: center;
+    border-radius: 10%;
+}
+.container{
+    display: flex;
+}
+.container div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+#voice {
+    height: 100px;
+    width: max-content;
+    font-size: 3em;
+    font-family: sans-serif;
+}
